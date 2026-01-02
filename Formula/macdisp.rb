@@ -1,7 +1,7 @@
 class Macdisp < Formula
   desc "Display configuration tool for macOS"
   homepage "https://github.com/noworrieseh/macdisp"
-  url "https://github.com/noworrieseh/macdisp/releases/download/v0.2.1/macdisp-universal-v0.2.1.tar.gz"
+  url "https://github.com/noworrieseh/macdisp/archive/refs/tags/v0.2.1.zip"
   depends_on "rust" => :build
 
   def install
